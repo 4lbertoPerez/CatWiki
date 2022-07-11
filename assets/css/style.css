@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+
+*{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Arima', cursive;
+}
+.div1-box input{
+    width: 200px;
+}
+
+.div1-box{
+    margin-left: 100px;    
+}
+.div1-box img{
+    /* transform: scale(3); */
+    width: 300px;
+    height: 150px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.615);
+    padding: 8px;
+}
+.div1{
+    margin: 35px;
+    margin-bottom: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/HeroImagelg.png");
+    background-size: cover;
+    color: white;
+}
+
+.div2{
+    background-color: rgba(227,225,220,255);
+    margin-left: 35px;
+    margin-right: 35px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.div2-box{
+    padding: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.breeds{
+    font-weight: bolder;
+}
+.breeds-tit{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.div3{
+    margin-left: 35px;
+    margin-right: 35px;
+    
+
+}
+
+.div3-box{
+    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.div3-box img{
+    max-width: 50%;
+    max-height: 50%;
+}
+.div3-box h1{
+    font-weight: bolder;
+}
+
+.div3-box p{
+    font-weight: bold;
+    font-size: large;
+}
+
+.imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgba(227,225,220,255);
+    font-size: large;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 100px;
+}
+
+.footer img{
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.footer a{
+    color: black;
+}
+
